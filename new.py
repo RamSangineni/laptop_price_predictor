@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.ensemble import ExtraTreesRegressor
 import pickle 
 
-loaded_model = pickle.load(open('C:/Users/ramsa/Downloads/Data analysis assignments/flipkart/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('https://github.com/RamSangineni/laptop_price_predictor/blob/main/trained_model.sav', 'rb'))
 
 st.title('Laptop Price Estimator')
 Brand = st.selectbox('Select the Brand', ('select','Lenovo', 'ASUS', 'Redmi', 'APPLE', 'HP', 'Infinix', 'SAMSUNG', 'acer', 'MSI', 'DELL', 'realme', 'GIGABYTE', 'Mi', 'ALIENWARE'))
